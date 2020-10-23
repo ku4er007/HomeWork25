@@ -1,0 +1,165 @@
+[1603446771.808][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 14508
+[1603446771.808][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1603446772.046][INFO]: [0abb60d8f40eefff08783c787baa7633] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/kostiantyndoroshenko/Downloads/ДЗ Автоматизация/Лекция 19 - ДЗ19 Maven, TestNG/HomeWork25/build/downloads/1603446771108_30548_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/kostiantyndoroshenko/Downloads/ДЗ Автоматизация/Лекция 19 - ДЗ19 Maven, TestNG/HomeWork25/build/downloads/1603446771108_30548_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1603446772.047][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/kostiantyndoroshenko/Downloads/ДЗ Автоматизация/Лекция 19 - ДЗ19 Maven, TestNG/HomeWork25/build/downloads/1603446771108_30548_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1603446772.048][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1603446772.048][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/wy/_106bf7d06q9jc6p1xz5wbbm0000gn/T/.com.google.Chrome.VV2kLh data:,
+[1603446773.609][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1603446773.616][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1603446773.666][INFO]: [0abb60d8f40eefff08783c787baa7633] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.111",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "/var/folders/wy/_106bf7d06q9jc6p1xz5wbbm0000gn/T/.com.google.Chrome.VV2kLh"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:54258"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "0abb60d8f40eefff08783c787baa7633"
+}
+[1603446773.731][INFO]: [0abb60d8f40eefff08783c787baa7633] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1603446773.731][INFO]: Waiting for pending navigations...
+[1603446773.733][INFO]: Done waiting for pending navigations. Status: ok
+[1603446778.691][INFO]: Waiting for pending navigations...
+[1603446778.692][INFO]: Done waiting for pending navigations. Status: ok
+[1603446778.694][INFO]: [0abb60d8f40eefff08783c787baa7633] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 22,
+   "y": 45
+}
+[1603446778.703][INFO]: [0abb60d8f40eefff08783c787baa7633] COMMAND Navigate {
+   "url": "https://wizzair.com//"
+}
+[1603446778.703][INFO]: Waiting for pending navigations...
+[1603446778.703][INFO]: Done waiting for pending navigations. Status: ok
+[1603446779.002][INFO]: Waiting for pending navigations...
+[1603446780.473][INFO]: Done waiting for pending navigations. Status: ok
+[1603446780.474][INFO]: [0abb60d8f40eefff08783c787baa7633] RESPONSE Navigate

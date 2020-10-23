@@ -1,0 +1,216 @@
+[1603446586.361][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 7445
+[1603446586.361][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1603446586.642][INFO]: [81add11a9009bc8ebfcad60fd88093c0] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/kostiantyndoroshenko/Downloads/ДЗ Автоматизация/Лекция 19 - ДЗ19 Maven, TestNG/HomeWork25/build/downloads/1603446585592_30499_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/kostiantyndoroshenko/Downloads/ДЗ Автоматизация/Лекция 19 - ДЗ19 Maven, TestNG/HomeWork25/build/downloads/1603446585592_30499_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1603446586.644][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/kostiantyndoroshenko/Downloads/ДЗ Автоматизация/Лекция 19 - ДЗ19 Maven, TestNG/HomeWork25/build/downloads/1603446585592_30499_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1603446586.644][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1603446586.644][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/wy/_106bf7d06q9jc6p1xz5wbbm0000gn/T/.com.google.Chrome.wfOIxg data:,
+[1603446588.475][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1603446588.481][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1603446588.574][INFO]: [81add11a9009bc8ebfcad60fd88093c0] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.111",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "/var/folders/wy/_106bf7d06q9jc6p1xz5wbbm0000gn/T/.com.google.Chrome.wfOIxg"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:54172"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "81add11a9009bc8ebfcad60fd88093c0"
+}
+[1603446588.660][INFO]: [81add11a9009bc8ebfcad60fd88093c0] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1603446588.684][INFO]: Waiting for pending navigations...
+[1603446588.774][INFO]: Done waiting for pending navigations. Status: ok
+[1603446588.881][INFO]: Waiting for pending navigations...
+[1603446588.881][INFO]: Done waiting for pending navigations. Status: ok
+[1603446588.881][INFO]: [81add11a9009bc8ebfcad60fd88093c0] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 22,
+   "y": 45
+}
+[1603446588.893][INFO]: [81add11a9009bc8ebfcad60fd88093c0] COMMAND Navigate {
+   "url": "https://wizzair.com//"
+}
+[1603446588.893][INFO]: Waiting for pending navigations...
+[1603446588.894][INFO]: Done waiting for pending navigations. Status: ok
+[1603446589.120][INFO]: Waiting for pending navigations...
+[1603446590.206][INFO]: Done waiting for pending navigations. Status: ok
+[1603446590.206][INFO]: [81add11a9009bc8ebfcad60fd88093c0] RESPONSE Navigate
+[1603446597.748][INFO]: [81add11a9009bc8ebfcad60fd88093c0] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#search\\-departure\\-station"
+}
+[1603446597.750][INFO]: Waiting for pending navigations...
+[1603446597.751][INFO]: Done waiting for pending navigations. Status: ok
+[1603446597.757][INFO]: Waiting for pending navigations...
+[1603446597.758][INFO]: Done waiting for pending navigations. Status: ok
+[1603446597.758][INFO]: [81add11a9009bc8ebfcad60fd88093c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#search\-departure\-station"}
+  (Session info: chrome=86.0.4240.111)
+[1603446598.085][INFO]: [81add11a9009bc8ebfcad60fd88093c0] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#search\\-departure\\-station"
+}
+[1603446598.085][INFO]: Waiting for pending navigations...
+[1603446598.086][INFO]: Done waiting for pending navigations. Status: ok
+[1603446598.091][INFO]: Waiting for pending navigations...
+[1603446598.092][INFO]: Done waiting for pending navigations. Status: ok
+[1603446598.092][INFO]: [81add11a9009bc8ebfcad60fd88093c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#search\-departure\-station"}
+  (Session info: chrome=86.0.4240.111)
+[1603446598.379][INFO]: [81add11a9009bc8ebfcad60fd88093c0] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#search\\-departure\\-station"
+}
+[1603446598.379][INFO]: Waiting for pending navigations...
+[1603446598.380][INFO]: Done waiting for pending navigations. Status: ok
+[1603446598.385][INFO]: Waiting for pending navigations...
+[1603446598.386][INFO]: Done waiting for pending navigations. Status: ok
+[1603446598.386][INFO]: [81add11a9009bc8ebfcad60fd88093c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#search\-departure\-station"}
+  (Session info: chrome=86.0.4240.111)
+[1603446598.724][INFO]: [81add11a9009bc8ebfcad60fd88093c0] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1603446598.724][INFO]: Waiting for pending navigations...
+[1603446598.724][INFO]: Done waiting for pending navigations. Status: ok
+[1603446598.736][INFO]: Waiting for pending navigations...
+[1603446598.737][INFO]: Done waiting for pending navigations. Status: ok
+[1603446598.737][INFO]: [81add11a9009bc8ebfcad60fd88093c0] RESPONSE ExecuteScript "\u003Chtml class=\"no-js ltr wf-sourcesanspro-n4-active wf-sourcesanspro-n6-active wf-sourcesanspro-n7-active wf-p22undergroundpro-n4-active wf-active\" dir=\"ltr\" lang=\"en-GB\" data-useragent=\"mozilla/5.0 ..."
+[1603446601.390][INFO]: [81add11a9009bc8ebfcad60fd88093c0] COMMAND Screenshot {
+
+}
+[1603446601.390][INFO]: Waiting for pending navigations...
+[1603446601.392][INFO]: Done waiting for pending navigations. Status: ok
+[1603446601.834][INFO]: Waiting for pending navigations...
+[1603446601.835][INFO]: Done waiting for pending navigations. Status: ok
+[1603446601.835][INFO]: [81add11a9009bc8ebfcad60fd88093c0] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAACqwAAAViCAYAAAB9RE8/AAABKGlDQ1BTa2lhAAAokX2RP0jDUBCHP4uLfxBBRQeHOOmithWjBR1MwSJurUJ1S9NQxDaGNEWdu7q7Oru66l6cBMFBXN0FwbX+XjukIPWOe/fxu3sv7/IgtYAsNQ2NII6KBccqn5xaDJjrNUOG2wj8v..."
+[1603446609.734][INFO]: [81add11a9009bc8ebfcad60fd88093c0] COMMAND Quit {
+
+}
+[1603446609.784][INFO]: [81add11a9009bc8ebfcad60fd88093c0] RESPONSE Quit

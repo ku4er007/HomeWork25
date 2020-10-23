@@ -31,7 +31,6 @@
             <version>6.14.3</version>
             <scope>test</scope>
         </dependency>
-<!--selenium dependency-->
 
 <!--        <dependency>-->
 <!--            <groupId>org.seleniumhq.selenium</groupId>-->
@@ -43,14 +42,13 @@
 <!--            <artifactId>webdrivermanager</artifactId>-->
 <!--            <version>4.2.2</version>-->
 <!--        </dependency>-->
-<!--        -->
 
-<!--selenid dependency-->
         <dependency>
             <groupId>com.codeborne</groupId>
             <artifactId>selenide</artifactId>
-            <version>5.11.0</version>
+            <version>5.14.2</version>
         </dependency>
+
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
