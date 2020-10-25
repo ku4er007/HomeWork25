@@ -1,11 +1,14 @@
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Selenide.*;
+import static org.testng.AssertJUnit.assertTrue;
 
 public class RyanairCom {
+    SelenideElement departureDate = $x("//div[@class='details__bottom-bar b2 ng-tns-c24-2 ng-trigger ng-trigger-fadeInOut ng-star-inserted']");
 
     @Test
     public void searchTicketsRyanairTest() {
@@ -28,6 +31,8 @@ public class RyanairCom {
 
         $$x("//h3[@class='header__title']").shouldHaveSize(2);
         $("details__bottom-bar b2 ng-tns-c24-2").shouldHave(Condition.text(" В обидва кінці "));
+        assertTrue(departureDate.getText().contains("19 лист."));
+        assertTrue(departureDate.getText().contains("21 лист."));
 
     }
 }
