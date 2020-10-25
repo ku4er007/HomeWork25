@@ -1,0 +1,199 @@
+[1603459086.667][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 33611
+[1603459086.668][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1603459087.037][INFO]: [5bef75b587f27c8d03f81c79afe198db] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/kostiantyndoroshenko/Downloads/ДЗ Автоматизация/Лекция 19 - ДЗ19 Maven, TestNG/HomeWork25/build/downloads/1603459084062_33837_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/kostiantyndoroshenko/Downloads/ДЗ Автоматизация/Лекция 19 - ДЗ19 Maven, TestNG/HomeWork25/build/downloads/1603459084062_33837_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1603459087.039][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/kostiantyndoroshenko/Downloads/ДЗ Автоматизация/Лекция 19 - ДЗ19 Maven, TestNG/HomeWork25/build/downloads/1603459084062_33837_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1603459087.039][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1603459087.039][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/wy/_106bf7d06q9jc6p1xz5wbbm0000gn/T/.com.google.Chrome.n5wxmN data:,
+[1603459100.725][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1603459101.064][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1603459101.156][INFO]: [5bef75b587f27c8d03f81c79afe198db] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.111",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "/var/folders/wy/_106bf7d06q9jc6p1xz5wbbm0000gn/T/.com.google.Chrome.n5wxmN"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:51947"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "5bef75b587f27c8d03f81c79afe198db"
+}
+[1603459101.322][INFO]: [5bef75b587f27c8d03f81c79afe198db] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1603459101.325][INFO]: Waiting for pending navigations...
+[1603459101.337][INFO]: Done waiting for pending navigations. Status: ok
+[1603459101.443][INFO]: Waiting for pending navigations...
+[1603459101.444][INFO]: Done waiting for pending navigations. Status: ok
+[1603459101.444][INFO]: [5bef75b587f27c8d03f81c79afe198db] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 22,
+   "y": 45
+}
+[1603459101.453][INFO]: [5bef75b587f27c8d03f81c79afe198db] COMMAND Navigate {
+   "url": "https://www.flyuia.com/"
+}
+[1603459101.453][INFO]: Waiting for pending navigations...
+[1603459101.454][INFO]: Done waiting for pending navigations. Status: ok
+[1603459102.388][INFO]: Waiting for pending navigations...
+[1603459104.634][INFO]: Done waiting for pending navigations. Status: ok
+[1603459104.791][INFO]: [5bef75b587f27c8d03f81c79afe198db] RESPONSE Navigate
+[1603459110.241][INFO]: [5bef75b587f27c8d03f81c79afe198db] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@class='ng-valid ng-touched ng-dirty']"
+}
+[1603459110.413][INFO]: Waiting for pending navigations...
+[1603459110.415][INFO]: Done waiting for pending navigations. Status: ok
+[1603459110.439][INFO]: Waiting for pending navigations...
+[1603459110.537][INFO]: Done waiting for pending navigations. Status: ok
+[1603459110.537][INFO]: [5bef75b587f27c8d03f81c79afe198db] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class='ng-valid ng-touched ng-dirty']"}
+  (Session info: chrome=86.0.4240.111)
+[1603459110.965][INFO]: [5bef75b587f27c8d03f81c79afe198db] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@class='ng-valid ng-touched ng-dirty']"
+}
+[1603459110.967][INFO]: Waiting for pending navigations...
+[1603459110.968][INFO]: Done waiting for pending navigations. Status: ok
+[1603459110.973][INFO]: Waiting for pending navigations...
+[1603459110.974][INFO]: Done waiting for pending navigations. Status: ok
+[1603459110.974][INFO]: [5bef75b587f27c8d03f81c79afe198db] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class='ng-valid ng-touched ng-dirty']"}
+  (Session info: chrome=86.0.4240.111)
+[1603459111.352][INFO]: [5bef75b587f27c8d03f81c79afe198db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1603459111.352][INFO]: Waiting for pending navigations...
+[1603459111.352][INFO]: Done waiting for pending navigations. Status: ok
+[1603459111.386][INFO]: Waiting for pending navigations...
+[1603459111.528][INFO]: Done waiting for pending navigations. Status: ok
+[1603459111.573][INFO]: [5bef75b587f27c8d03f81c79afe198db] RESPONSE ExecuteScript "\u003Chtml lang=\"ru\">\u003Chead>\n\u003Cscript async=\"\" src=\"https://www.googletagmanager.com/gtm.js?id=GTM-W3CB665\">\u003C/script>\u003Cscript type=\"text/javascript\" async=\"\" src=\"https://www.gstatic.com/recaptcha/releases..."
+[1603459117.506][INFO]: [5bef75b587f27c8d03f81c79afe198db] COMMAND Screenshot {
+
+}
+[1603459117.507][INFO]: Waiting for pending navigations...
+[1603459117.508][INFO]: Done waiting for pending navigations. Status: ok

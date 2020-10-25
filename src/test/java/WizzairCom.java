@@ -34,9 +34,5 @@ public class WizzairCom {
         $$(".flight-select__flight-info__day").get(0).shouldHave(Condition.text(" Thu, 19 Nov 2020 "));
         $$(".flight-select__flight-info__day").get(1).shouldHave(Condition.text(" Sun, 22 Nov 2020 "));
 
-
-
-
-
     }
 }
